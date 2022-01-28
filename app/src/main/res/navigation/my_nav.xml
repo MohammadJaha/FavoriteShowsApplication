@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainPage">
+
+    <fragment
+        android:id="@+id/searchName"
+        android:name="com.example.mohammad_jaha.SearchName"
+        android:label="fragment_search_name"
+        tools:layout="@layout/fragment_search_name" >
+        <action
+            android:id="@+id/action_searchName_to_mainPage"
+            app:destination="@id/mainPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainPage"
+        android:name="com.example.mohammad_jaha.MainPage"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPage_to_informationPage"
+            app:destination="@id/informationPage" />
+        <action
+            android:id="@+id/action_mainPage_to_searchName"
+            app:destination="@id/searchName" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationPage"
+        android:name="com.example.mohammad_jaha.InformationPage"
+        android:label="fragment_information_page"
+        tools:layout="@layout/fragment_information_page" >
+        <action
+            android:id="@+id/action_informationPage_to_mainPage"
+            app:destination="@id/mainPage" />
+    </fragment>
+</navigation>

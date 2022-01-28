@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mohammad_Jaha" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="failToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#B3FF0000</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000000</item>
+        <item name="stIconStart">@drawable/danger</item>
+        <item name="stIconEnd">@drawable/danger</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">15dp</item>
+    </style>
+    <style name="deleteToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#B30059FF</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000000</item>
+        <item name="stIconStart">@drawable/delete_ic_emoji</item>
+        <item name="stIconEnd">@drawable/delete_ic_emoji</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">15dp</item>
+    </style>
+    <style name="addToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#B341A42D</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000000</item>
+        <item name="stIconStart">@drawable/add_ic_emoji</item>
+        <item name="stIconEnd">@drawable/add_ic_emoji</item>
+        <item name="iconSize">25dp</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">15dp</item>
+    </style>
+    <style name="updateToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#B3FFE100</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000000</item>
+        <item name="stIconStart">@drawable/update_ic_emoji</item>
+        <item name="stIconEnd">@drawable/update_ic_emoji</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">15dp</item>
+    </style>
+</resources>
