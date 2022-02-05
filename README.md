@@ -1,5 +1,5 @@
 # FavoriteShowsApplication
-Android Application to Browse TV Show from TV Maze  
+Android Application to Browse TV Show from TV Maze API  
    
 **Demo:**  
 [![Favorite Show Application](https://user-images.githubusercontent.com/90371913/152652887-7fcfcd75-2ec2-4201-9ef3-0f26604d2864.jpg)](https://youtu.be/J0dC9BAq1b4)  
